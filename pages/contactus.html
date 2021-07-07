@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+    src="https://kit.fontawesome.com/e92e9edbfb.js"
+    crossorigin="anonymous"></script>
+    <link href="../styles/styles.css" rel="stylesheet" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header>
+    <nav>
+        <a href="../index.html"><div class="logo">Adventure Trails Hikes</div></a>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+      <li><a href="../index.html">HOME</a></li>
+      <li><a  href="about.html">ABOUT US</a></li>
+      <li><a class="active" href="contactus.html">CONTACT US</a></li>
+      </ul>
+      </nav>
+</header>
+<div class="margin_body_contact">
+    <main>
+        <div id="live-price-container" class="live-price-container">
+          <div id="live-price" class="live-price"></div>
+        </div>
+        <div class="containertwo">
+          <div class="contact_us_container">
+            <div class="contact-us-h1">
+              <h1 class="contact_h1">Contact Us</h1>
+             </div>
+             <div><p class="contact_us_p">Got a question? Please send us a message and we
+                we'll respond as soon as possible</p></div>
+            <form id="formContact">
+                <div class="form_name"> 
+                    <label>
+                        Name<br>
+                    <input name="name" id="myName" />  
+                    </label>
+                </div>
+                <label>Message<br></label>
+                <textarea  name="message" id="message" cols="40" rows="10" ></textarea>
+                <div class="form_submit">
+                    <label>
+                        Email<br>
+                        <input name="email" id="myEmail" />
+                    </label>
+                    <div class="button-back">
+                      <button type="submit" onclick="submitForm()">Send Message</button>
+                  </div>
+            </form>
+          </div>
+      </div>
+    </main>
+    <div class="faq_contact">
+        <h1 class="faq_child">FAQ</h1>
+        <h2 class="faq_child">How do I book a tour?</h2>
+        <p class="faq_child">- You can go to the contact page to get in touch, or you can call us on 555 1000.</p>
+        <h2 class="faq_child">Prices</h2>
+        <p class="faq_child">- Our tours are most often created with a specific group of people in mind, so our prices vary. Contact us for more information.
+        </p>
+        <h2 class="faq_child">What do I need to bring?</h2>
+        <p class="faq_child">- We encourage hikers to pack sensibly and bring their own appropriate clothing and gear. We are always well-stocked and prepared, just in case you have forgotten something or would rather travel light. Be aware that our package prices do not include extra equipment!</p>
+        <h2 class="faq_child">Insurance</h2>
+        <p class="faq_child">- We offer a special all-inclusive insurance package which covers all aspects of a tour. Contact us for more information about this.</p>
+        <h2 class="faq_child">Accessibility</h2>
+        <p class="faq_child">- We also offer tours for people with disabilities. Contact us for more information.</p>
+    </div>
+</div>
+<footer>
+  <div class="footer_box">
+    <h2 class="footer_header">Adventure Trails Hikes</h2>
+    <br>
+    <small>Copyright © 2021, 2732 Neville Street, South Carolina, WINNSBORO, USA. 29180...</small>
+      </div>
+</footer>
+</body>
+</html>
