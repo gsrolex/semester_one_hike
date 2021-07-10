@@ -80,6 +80,9 @@ nav .menu-btn i {
 header nav a {
   text-decoration: none;
 }
+.prod_img_top {
+  padding-bottom: 20px
+}
 
 .welcome_text {
   text-align: left;
@@ -427,7 +430,7 @@ label input {
   border: none;
   background: #f0f0f0;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  width: 400px;
+  width: 600px;
   height: 35px;
   padding-left: 12px;
 }
@@ -436,7 +439,7 @@ textarea {
   border: none;
   background: #f0f0f0;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  width: 400px;
+  width: 600px;
   resize: none;
 }
 .button-back button {
@@ -446,7 +449,7 @@ textarea {
   font-weight: bold;
   background: #41e751;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  width: 400px;
+  width: 600px;
   height: 45px;
 }
 
@@ -479,7 +482,7 @@ textarea {
   padding: 30px 0px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 670px) {
   .button-back button,
   textarea,
   label input {
